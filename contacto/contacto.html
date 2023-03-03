@@ -1,37 +1,55 @@
-<!--
-    Yohancel Pita - Pol Pomeda - Rowan Vowler
-    3/1/2023
-    ASIX1c M04 UF1 PT3
--->
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
         <title>Contacto</title>
+        <link rel="stylesheet" href="../css/contacte.css"/>
         <link rel="icon" type="image/x-icon" href="../images/Logo-Delicias.png">
     </head>
+    <header>
+        <div class="head">
+            <div class="head_photo"><img src="../images/Logo-Delicias.png"/></div>
+            <div class="head_index">
+                <a class="head_index_link" href="../index.html">Inici</a>
+                <a class="head_index_link" href="">Sobre mi</a>
+                <a class="head_index_link" href="../receta/receta.html">Receptes</a>
+                <a class="head_index_link" href="contacto/contacto.html">Contacte</a>
+                <a class="head_index_link" href="">Altres coses</a>
+            </div>
+        </div>                               
+    </header>
     <body>
-        <header>
-            <img src="/images/Logo-Delicias.png" type="center"/>
-            <nav>
-                <a href="../index.html">Inici</a>
-                <a href="">Sobre mi</a>
-                <a href="../receta/receta.html">Receptes</a>
-                <a href="contacto.html">Contacte</a>
-                <a href="">Altres coses</a>
-            </nav>                                        
-        </header>
-        <aside>
-            <h1>En construcció</h1>
-        </aside>
+        <form class="formulari" method="get">
+            <fieldset class="container">
+                <div class="name">
+                    <label>Nom:</label>
+                    <input name="first_name" placeholder="Juan" type="text">
+                </div>
+                <div class="last_name">
+                    <label>Cognom:</label>
+                    <input name="l_name" placeholder="Rodriguez Cabrera" type="text">
+                </div>
+                <div class="email">
+                    <label>E-mail:</label>
+                    <input name="mail" placeholder="juanrc@exemple.com" type="email">
+                </div>
+                <div class="comment">
+                    <label>Comentari:</label>
+                    <input name="comment_input" placeholder="Posa la teva opinió" type="text">
+                </div>
+                <div>
+                    <button class="boton_enviar" name="boton_enviar" type="submit">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+        <footer>
+            <div class="footer">
+                <a class="footer_link" href="https://facebook.com">FACEBOOK</a>
+                <a class="footer_link" href="https://twitter.com">TWITTER</a>
+                <a class="footer_link" href="https://instagram.com">INSTAGRAM</a>
+                <a class="footer_link" href="https://pinterest.com">PINTEREST</a>
+                <a class="footer_link" href="">EMAIL</a>
+                <a class="footer_link" href="">RSS</a>
+            </div>
+        </footer>
     </body>
-    <footer>
-        <nav>
-            <a href="https://facebook.com">FACEBOOK</a>
-            <a href="https://twitter.com">TWITTER</a>
-            <a href="https://instagram.com">INSTAGRAM</a>
-            <a href="https://pinterest.com">PINTEREST</a>
-            <a href="">EMAIL</a>
-            <a href="">RSS</a>
-        </nav>
-    </footer>
 </html>
